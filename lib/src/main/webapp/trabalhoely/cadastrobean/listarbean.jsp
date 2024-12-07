@@ -12,7 +12,7 @@
 <body>
 <div class="container">
     <h2 class="text-center">Lista de livros</h2>
-    <a href="add_jogo.jsp" class="btn btn-primary">Adicionar Novos Livros</a>
+    <a href="add_livro.jsp" class="btn btn-primary">Adicionar Novos Livros</a>
 
     <table class="table table-striped">
         <thead>

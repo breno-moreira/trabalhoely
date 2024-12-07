@@ -33,8 +33,8 @@
                     <td class="text-center">${livro.autor}</td>
                     <td class="text-center">${livro.descricao}</td>
                     <td class="text-center">
-                        <a href="edd_livroBean.jsp?id=${livro.idlivros}" class="btn btn-warning btn-sm">Alterar</a>
-                        <a href="excluirBean.jsp?id=${livro.idlivros}" class="btn btn-danger btn-sm">Excluir</a>
+                        <a href="add_livros.jsp?id=${livro.idlivros}" class="btn btn-warning btn-sm">Alterar</a>
+                        <a href="excluirbean.jsp?id=${livro.idlivros}" class="btn btn-danger btn-sm">Excluir</a>
                     </td>
                 </tr>
             </c:forEach>
